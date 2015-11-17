@@ -23,15 +23,15 @@
    ],
    "pages" : [
       {
-         "name": "Home Page", // Set the name of template (this example contains all available templates)
-         "templateSlug": "home", // set the templateSlug for the template (this example contains all available templates)
-         "content": "page", // Set type
+         "name": "Home Page",
+         "templateSlug": "home",
+         "content": "page",
          "description": "This is the Home Page",
          "styles": [
             {
-               "name": "Default", // Default view for this page type (*required)
+               "name": "Default",
                "demoUrl": "",
-               "screenshot": "imgs/screenshots/homepage_1.jpg" // path starts from your themes root
+               "screenshot": "imgs/screenshots/homepage_1.jpg"
             }
          ]
       },
@@ -47,7 +47,7 @@
                "screenshot": "imgs/screenshots/rooms_1.jpg"
             },
             {
-               "name": "Alternative",  // Alternative view for this page type (*optional)
+               "name": "Alternative",
                "demoUrl": "",
                "screenshot": "imgs/screenshots/rooms_2.jpg"
             }
