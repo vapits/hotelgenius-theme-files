@@ -1,25 +1,24 @@
 {  
-   "name": "Rallegra", // Add your theme name
-   "id": "", // Set an ID for your
-   // "_id": "XXXXX", IMPORTANT: YOU DON'T HAVE TO ADD THIS LINE. THIS LINE WILL BE ADDED BY THE SYSTEM AFTER THE FIRST UPLOAD OF YOUR THEME
-   "version": "1.0", // Set your version
-   "themeFile": "http://yourdomain.com/theme_name.zip", // The url that the theme zip file is uploaded (zip file should contain the themes root contents and folders)
-   "description": "", // Set a desciption for your theme
-   "category" : "Boutique", // Set the category of your theme
-   "style" : "Luxury, Historic, Design, Holiday, Business, Romantic", // Set styles of your theme seperated by comma
-   "type" : "premium", // Set the type of your theme (premium or standard)
-   "demoUrl" : "", // Is a static version of the me availble online? Set it here
-   "demoData" : "http://rallegra.hotelgenius.co", // From which demo theme you will take the data? (no need to change)
-   "demoPropertyID" : "54881658cca2fd9d341d74de", // Demo themes property ID (no need to change)
-   "previewImgDesktop": "imgs/screenshots/desktop.jpg", // Desktop preview screenshot (path starts from your themes root)
-   "previewImgMobile": "imgs/screenshots/mobile.jpg", // Responsive preview screenshot (path starts from your themes root)
-   "standardPreview": "http://rallegra-st.hotelgenius.co", // Standard version demo (no need to change)
+   "name": "My Theme Name",
+   "id": "100",
+   "version": "1.1.0",
+   "themeFile": "http://yourdomain/theme.zip",
+   "description": "",
+   "category" : "Boutique",
+   "style" : "Luxury, Historic, Design, Holiday, Business, Romantic",
+   "type" : "premium & standard",
+   "demoUrl" : "http://rallegra.hotelgenius.co",
+   "demoData" : "http://rallegra.hotelgenius.co",
+   "demoPropertyID" : "54881658cca2fd9d341d74de",
+   "previewImgDesktop": "imgs/screenshots/desktop.jpg",
+   "previewImgMobile": "imgs/screenshots/mobile.jpg",
+   "standardPreview": "http://rallegra-st.hotelgenius.co",
    "menus": [
       {
-         "id": "default" // Leave it as it is
+         "id": "default"
       },
       {
-         "id": "alternative" // Leave it as it is
+         "id": "alternative"
       }
    ],
    "pages" : [
@@ -31,7 +30,7 @@
          "styles": [
             {
                "name": "Default", // Default view for this page type (*required)
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/homepage_1.jpg" // path starts from your themes root
             }
          ]
@@ -44,12 +43,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/rooms_1.jpg"
             },
             {
                "name": "Alternative",  // Alternative view for this page type (*optional)
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/rooms_2.jpg"
             }
          ]
@@ -61,7 +60,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/rooms_single_1.jpg"
             }
          ]
@@ -74,12 +73,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/facilities_1.jpg"
             },
             {
                "name": "Alternative",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/facilities_2.jpg"
             }
          ]
@@ -91,7 +90,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/facility_single_1.jpg"
             }
          ]
@@ -104,12 +103,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/location_1.jpg"
             },
             {
                "name": "Alternative",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/location_2.jpg"
             }
          ]
@@ -121,7 +120,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/location_single_1.jpg"
             }
          ]
@@ -134,12 +133,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/gallery_1.jpg"
             },
             {
                "name": "Alternative",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/gallery_2.jpg"
             }
          ]
@@ -151,7 +150,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/gallery_single_1.jpg"
             }
          ]
@@ -164,7 +163,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/contact_1.jpg"
             }
          ]
@@ -177,17 +176,17 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/offers_1.jpg"
             },
             {
                "name": "Alternative",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/offers_2.jpg"
             },
             {
                "name": "Group template",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/offers_3.jpg"
             }
          ]
@@ -199,7 +198,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/offers_single_1.jpg"
             }
          ]
@@ -212,7 +211,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/blog_1.jpg"
             }
          ]
@@ -224,7 +223,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/blog_single_1.jpg"
             }
          ]
@@ -237,12 +236,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/single_page_1.jpg"
             },
             {
                "name": "Group template",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/single_page_2.jpg"
             }
          ]
@@ -255,12 +254,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/events_1.jpg"
             },
             {
                "name": "Alternative",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/events_2.jpg"
             }
          ]
@@ -272,7 +271,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/event_single_1.jpg"
             }
          ]
@@ -285,12 +284,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/reviews_1.jpg"
             },
             {
                "name": "Alternative",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/reviews_2.jpg"
             }
          ]
@@ -302,7 +301,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/reviews_single_1.jpg"
             }
          ]
@@ -315,12 +314,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/awards_1.jpg"
             },
             {
                "name": "Alternative",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/awards_2.jpg"
             }
          ]
@@ -332,7 +331,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/awards_single_1.jpg"
             }
          ]
@@ -345,12 +344,12 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/press_1.jpg"
             },
             {
                "name": "Alternative",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/press_2.jpg"
             }
          ]
@@ -362,7 +361,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/press_single_1.jpg"
             }
          ]
@@ -374,7 +373,7 @@
          "styles": [
             {
                "name": "Default",
-               "demoUrl": "", // depricated
+               "demoUrl": "",
                "screenshot": "imgs/screenshots/landing_page__1.jpg"
             }
          ]
@@ -383,35 +382,20 @@
    ],
    "fontCustom": [
       {
-         "name": "Oranienbaum", // The name of the font
-         "description": "This font supports latin & Cyrillic languages. Well-combined with Times as body text font.", // Inform user what is the use and the languages support for this font
-         "styleName": "'Oranienbaum', Times, serif" // The CSS name (important to spell it correctly)
+         "name": "Oranienbaum",
+         "description": "This font supports latin & Cyrillic languages. Well-combined with Times as body text font.",
+         "styleName": "'Oranienbaum', Times, serif"
       },
       {
          "name": "Abel",
          "description": "This font supports latin languages. Well-combined with Arial as body text font.",
          "styleName": "'Abel', sans-serif"
-      },
-      {
-         "name": "Slabo 27px",
-         "description": "This font supports latin languages. Well-combined with Arial as body text font.",
-         "styleName": "'Slabo 27px', serif"
-      },
-      {
-         "name": "Roboto Condensed",
-         "description": "This font supports latin, Greek & Cyrillic languages.",
-         "styleName": "'Roboto Condensed', sans-serif"
-      },
-      {
-         "name": "Roboto",
-         "description": "This font supports latin & Greek languages. Well-combined with Arial as body text font.",
-         "styleName": "'Advent Pro', sans-serif"
       }
    ],
    "fontSystem": [
       {
-         "name": "Times New Roman - serif", // Leave all fonts in this array untouched or ad web safe fonts.
-         "styleName": "\"Times New Roman\", Times, serif" // The CSS name
+         "name": "Times New Roman - serif",
+         "styleName": "\"Times New Roman\", Times, serif"
       },
       {
          "name": "Georgia - serif",
@@ -428,13 +412,45 @@
       {
          "name": "Arial Black, Gadget - sans-serif",
          "styleName": "\"Arial Black\", Gadget, sans-serif"
+      },
+      {
+         "name": "Comic Sans MS - sans-serif",
+         "styleName": "\"Comic Sans MS\", cursive, sans-serif"
+      },
+      {
+         "name": "Impact, Charcoal - sans-serif",
+         "styleName": "Impact, Charcoal, sans-serif"
+      },
+      {
+         "name": "Lucida Sans Unicode, Lucida Grande - sans-serif",
+         "styleName": "\"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif"
+      },
+      {
+         "name": "Tahoma, Geneva - sans-serif",
+         "styleName": "\"Arial Black\", Gadget, sans-serif"
+      },
+      {
+         "name": "Trebuchet MS, Helvetica - sans-serif",
+         "styleName": "\"Trebuchet MS\", Helvetica, sans-serif"
+      },
+      {
+         "name": "Verdana, Geneva - sans-serif",
+         "styleName": "Verdana, Geneva, sans-serif"
+      },
+      {
+         "name": "Courier New, Courier - monospace",
+         "styleName": "\"Courier New\", Courier, monospace"
+      },
+      {
+         "name": "Lucida Console, Monaco - monospace",
+         "styleName": "\"Lucida Console\", Monaco, monospace"
       }
    ],
    "palletes": [
       {
-         "name": "Light cherry Palette (default)", // Set the pallete name
-         "description": "", // Give a description for the user (ex. nice for summer)
-         "color1": "rgba(255,255,255,1)", // You can use any kind of color type but we strongly recommend RGBA
+         "name": "Light cherry Palette (default)",
+         "description": "",
+         "color1": "rgba(255,255,255,1)",
          "color2": "rgba(250,245,242,1)",
          "color3": "rgba(235,81,101,1)",
          "color4": "rgba(235,81,101,1)",
@@ -457,24 +473,15 @@
          "color3": "rgba(192,124,25,1)",
          "color4": "rgba(192,124,25,1)",
          "color5": "rgba(0,0,0,1)"
-      },
-      {
-         "name": "Yellow Palette",
-         "description": "",
-         "color1": "rgba(255,255,255,1)",
-         "color2": "rgba(243,242,241,1)",
-         "color3": "rgba(36,100,148,1)",
-         "color4": "rgba(255,255,255,1)",
-         "color5": "rgba(253,153,29,1)"
       }
    ],
-   "effects": {}, // Leave it empty but keep it in file.
+   "effects": {},
    "strings": [
       {
-         "id": "string_1", // Id must NOT contain spaces and must be unique
-         "default": "BOOK NOW", // Set the default text (prefer english)
+         "id": "string_1",
+         "default": "BOOK NOW",
          "translations": {
-            "en": "BOOK NOW" // Set text for each supported language (including the default)
+            "en": "BOOK NOW"
          }
       },
       {
@@ -503,6 +510,510 @@
          "default": "Please call us at",
          "translations": {
             "en": "Please call us at"
+         }
+      },
+      {
+         "id": "string_5",
+         "default": "Please don't hesitate to",
+         "translations": {
+            "en": "Please don't hesitate to"
+         }
+      },
+      {
+         "id": "string_6",
+         "default": "MESSAGE US",
+         "translations": {
+            "en": "MESSAGE US"
+         }
+      },
+      {
+         "id": "string_7",
+         "default": "Please find us on",
+         "translations": {
+            "en": "Please find us on"
+         }
+      },
+      {
+         "id": "find_us_on_map",
+         "default": "Find us on map",
+         "translations": {
+            "en": "Find us on map"
+         }
+      },
+      {
+         "id": "string_8",
+         "default": "GOOGLE MAPS",
+         "translations": {
+            "en": "GOOGLE MAPS"
+         }
+      },
+      {
+         "id": "string_9",
+         "default": "ABOUT",
+         "translations": {
+            "en": "ABOUT"
+         }
+      },
+      {
+         "id": "string_10",
+         "default": "EVENTS",
+         "translations": {
+            "en": "EVENTS"
+         }
+      },
+      {
+         "id": "string_11",
+         "default": "CONTACT US",
+         "translations": {
+            "en": "CONTACT US"
+         }
+      },
+      {
+         "id": "string_12",
+         "default": "AWARDS",
+         "translations": {
+            "en": "AWARDS"
+         }
+      },
+      {
+         "id": "string_13",
+         "default": "REVIEWS",
+         "translations": {
+            "en": "REVIEWS"
+         }
+      },
+      {
+         "id": "string_14",
+         "default": "SUGGESTED",
+         "translations": {
+            "en": "SUGGESTED"
+         }
+      },
+      {
+         "id": "string_15",
+         "default": "All rights reserved.",
+         "translations": {
+            "en": "All rights reserved."
+         }
+      },
+      {
+         "id": "string_16",
+         "default": "Powered by",
+         "translations": {
+            "en": "Powered by"
+         }
+      },
+      {
+         "id": "string_17",
+         "default": "more",
+         "translations": {
+            "en": "more"
+         }
+      },
+      {
+         "id": "view",
+         "default": "view",
+         "translations": {
+            "en": "view"
+         }
+      },
+      {
+         "id": "string_18",
+         "default": "SUGGESTED",
+         "translations": {
+            "en": "SUGGESTED"
+         }
+      },
+      {
+         "id": "string_19",
+         "default": "HOT OFFERS",
+         "translations": {
+            "en": "HOT OFFERS"
+         }
+      },
+      {
+         "id": "string_21",
+         "default": "ROOMS & SUITES",
+         "translations": {
+            "en": "ROOMS & SUITES"
+         }
+      },
+      {
+         "id": "string_22",
+         "default": "FACILITIES",
+         "translations": {
+            "en": "FACILITIES"
+         }
+      },
+      {
+         "id": "string_24",
+         "default": "LOCATION",
+         "translations": {
+            "en": "LOCATION"
+         }
+      },
+      {
+         "id": "string_26",
+         "default": "CONTACT",
+         "translations": {
+            "en": "CONTACT"
+         }
+      },
+      {
+         "id": "string_28",
+         "default": "First name",
+         "translations": {
+            "en": "First name"
+         }
+      },
+      {
+         "id": "string_29",
+         "default": "Last name",
+         "translations": {
+            "en": "Last name"
+         }
+      },
+      {
+         "id": "string_30",
+         "default": "Email",
+         "translations": {
+            "en": "Email"
+         }
+      },
+      {
+         "id": "telephone",
+         "default": "Telephone",
+         "translations": {
+            "en": "Telephone"
+         }
+      },
+      {
+         "id": "string_31",
+         "default": "Country",
+         "translations": {
+            "en": "Country"
+         }
+      },
+      {
+         "id": "string_32",
+         "default": "Subject",
+         "translations": {
+            "en": "Subject"
+         }
+      },
+      {
+         "id": "string_33",
+         "default": "Message",
+         "translations": {
+            "en": "Message"
+         }
+      },
+      {
+         "id": "string_34",
+         "default": "SEND",
+         "translations": {
+            "en": "SEND"
+         }
+      },
+      {
+         "id": "string_35",
+         "default": "CONTACT FORM",
+         "translations": {
+            "en": "CONTACT FORM"
+         }
+      },
+      {
+         "id": "string_36",
+         "default": "Search here...",
+         "translations": {
+            "en": "Search here..."
+         }
+      },
+      {
+         "id": "string_37",
+         "default": "POSTED ON",
+         "translations": {
+            "en": "POSTED ON"
+         }
+      },
+      {
+         "id": "string_38",
+         "default": "TAGS:",
+         "translations": {
+            "en": "TAGS:"
+         }
+      },
+      {
+         "id": "string_42",
+         "default": "UPGRADE YOUR ROOM",
+         "translations": {
+            "en": "UPGRADE YOUR ROOM"
+         }
+      },
+      {
+         "id": "string_44",
+         "default": "Download",
+         "translations": {
+            "en": "Download"
+         }
+      },
+      {
+         "id": "view_more",
+         "default": "View more",
+         "translations": {
+            "en": "View more"
+         }
+      },
+      {
+         "id": "string_46",
+         "default": "SPECIAL EVENT",
+         "translations": {
+            "en": "SPECIAL EVENT"
+         }
+      },
+      {
+         "id": "string_47",
+         "default": "SPECIAL OFFER",
+         "translations": {
+            "en": "SPECIAL OFFER"
+         }
+      },
+      {
+         "id": "string_48",
+         "default": "BOOK OFFER",
+         "translations": {
+            "en": "BOOK OFFER"
+         }
+      },
+      {
+         "id": "string_49",
+         "default": "on TripAdvisor",
+         "translations": {
+            "en": "on TripAdvisor"
+         }
+      },
+      {
+         "id": "string_50",
+         "default": "THIS EVENT HAS EXPIRED",
+         "translations": {
+            "en": "THIS EVENT HAS EXPIRED"
+         }
+      },
+      {
+         "id": "string_51",
+         "default": "THIS OFFER HAS EXPIRED",
+         "translations": {
+            "en": "THIS OFFER HAS EXPIRED"
+         }
+      },
+      {
+         "id": "string_52",
+         "default": "PRESS RELEASE",
+         "translations": {
+            "en": "PRESS RELEASE"
+         }
+      },
+      {
+         "id": "string_53",
+         "default": "THERE ARE NO POSTS AT THIS MOMENT",
+         "translations": {
+            "en": "THERE ARE NO POSTS AT THIS MOMENT"
+         }
+      },
+      {
+         "id": "string_54",
+         "default": "SORRY, NO IMAGES AVAILABLE",
+         "translations": {
+            "en": "SORRY, NO IMAGES AVAILABLE"
+         }
+      },
+      {
+         "id": "string_55",
+         "default": "ERROR!",
+         "translations": {
+            "en": "ERROR!"
+         }
+      },
+      {
+         "id": "explore_site",
+         "default": "You can explore our site back to the navigation below.",
+         "translations": {
+            "en": "You can explore our site back to the navigation below."
+         }
+      },
+      {
+         "id": "back_to_homepage",
+         "default": "back to home",
+         "translations": {
+            "en": "back to home"
+         }
+      },
+      {
+         "id": "string_56",
+         "default": "SORRY THE PAGE YOU ARE LOOKING FOR DOES NOT EXIST",
+         "translations": {
+            "en": "SORRY THE PAGE YOU ARE LOOKING FOR DOES NOT EXIST"
+         }
+      },
+      {
+         "id": "string_57",
+         "default": "Address",
+         "translations": {
+            "en": "Address"
+         }
+      },
+      {
+         "id": "string_58",
+         "default": "OUR FACILITIES",
+         "translations": {
+            "en": "OUR FACILITIES"
+         }
+      },
+      {
+         "id": "string_59",
+         "default": "book room",
+         "translations": {
+            "en": "book room"
+         }
+      },
+      {
+         "id": "string_60",
+         "default": "ACCOMMODATION",
+         "translations": {
+            "en": "ACCOMOMDATION"
+         }
+      },
+      {
+         "id": "newsletter",
+         "default": "NEWSLETTER",
+         "translations": {
+            "en": "NEWSLETTER"
+         }
+      },
+      {
+         "id": "sign_up_newsletter",
+         "default": "SIGN UP TO OUR NEWSLETTER",
+         "translations": {
+            "en": "SIGN UP TO OUR NEWSLETTER"
+         }
+      },
+      {
+         "id": "full_name",
+         "default": "Full Name",
+         "translations": {
+            "en": "Full Name"
+         }
+      },
+      {
+         "id": "enter_full_name",
+         "default": "Enter your name",
+         "translations": {
+            "en": "Enter your name"
+         }
+      },
+      {
+         "id": "email_address",
+         "default": "Email address",
+         "translations": {
+            "en": "Email address"
+         }
+      },
+      {
+         "id": "enter_email",
+         "default": "Enter email address",
+         "translations": {
+            "en": "Enter email address"
+         }
+      },
+      {
+         "id": "submit",
+         "default": "SUBMIT",
+         "translations": {
+            "en": "SUBMIT"
+         }
+      },
+      {
+         "id": "attractions",
+         "default": "ATTRACTIONS",
+         "translations": {
+            "en": "ATTRACTIONS"
+         }
+      },
+      {
+         "id": "share_this",
+         "default": "SHARE THIS",
+         "translations": {
+            "en": "SHARE THIS"
+         }
+      },
+      {
+         "id": "overview",
+         "default": "OVERVIEW",
+         "translations": {
+            "en": "OVERVIEW"
+         }
+      },
+      {
+         "id": "amenities",
+         "default": "AMENITIES",
+         "translations": {
+            "en": "AMENITIES"
+         }
+      },
+      {
+         "id": "floorplan",
+         "default": "FLOORPLAN",
+         "translations": {
+            "en": "FLOORPLAN"
+         }
+      },
+      {
+         "id": "our_facilities",
+         "default": "OUR FACILITIES",
+         "translations": {
+            "en": "OUR FACILITIES"
+         }
+      },
+      {
+         "id": "previous_post_2",
+         "default": "PREVIOUS POST",
+         "translations": {
+            "en": "PREVIOUS POST"
+         }
+      },
+      {
+         "id": "next_post",
+         "default": "NEXT POST",
+         "translations": {
+            "en": "NEXT POST"
+         }
+      },
+      {
+         "id": "do_not_miss_offers",
+         "default": "DON'T MISS OUR OFFERS",
+         "translations": {
+            "en": "DON'T MISS OUR OFFERS"
+         }
+      },
+      {
+         "id": "explore_trends",
+         "default": "EXPLORE THE TRENDS",
+         "translations": {
+            "en": "EXPLORE THE TRENDS"
+         }
+      },
+      {
+         "id": "our_destinations",
+         "default": "OUR DESTINATIONS",
+         "translations": {
+            "en": "OUR DESTINATIONS"
+         }
+      },
+      {
+         "id": "find_hotels",
+         "default": "FIND OUR HOTELS",
+         "translations": {
+            "en": "FIND OUR HOTELS"
          }
       }
    ]
